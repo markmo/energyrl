@@ -1,4 +1,4 @@
-# rl-energy
+# Reinforcement Learning using the EnergyPlus Simulator 
 
 ### Docker Setup
 
