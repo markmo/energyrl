@@ -1,0 +1,12 @@
+services:
+	energyplus:
+		image: energyplus
+    volumes:
+      - simdata: /var/simdata
+	model:
+		image: model-app
+    volumes:
+      - simdata: /var/simdata
+
+volumes:
+  simdata:
